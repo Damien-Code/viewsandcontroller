@@ -1,6 +1,4 @@
 <?php
-//include './controller.IndexController.IndexController.php';
-//include './controller.IndexController.AboutController.php';
 
 
 switch ($_SERVER['REQUEST_URI']){
