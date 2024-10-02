@@ -9,5 +9,4 @@ switch ($_SERVER['REQUEST_URI']){
     default:
         echo "Error 404";
 }
-//test
 ?>
