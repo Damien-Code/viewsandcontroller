@@ -4,7 +4,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title><?php echo $title ?></title>
 </head>
 <body>
 <header>

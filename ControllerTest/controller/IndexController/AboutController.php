@@ -1,3 +1,7 @@
 <?php
-require "./views/about.view.php";
+
+function aboutPage(){
+    $title = 'About';
+    include "./views/about.view.php";
+}
 ?>
