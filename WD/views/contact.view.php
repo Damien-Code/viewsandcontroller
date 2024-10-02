@@ -1,22 +1,6 @@
-<html lang="en" class="focus-outline-visible">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Webpage Layout</title>
-    <link rel="stylesheet" href="css/myStyle.css">
-
-</head>
-<body>
-<!-- Start Header -->
-<header>
-    <div class="icon">🌐</div>
-    <div class="menu">
-        <a href="index.view.php">Home</a>
-        <a href="about.view.php">About</a>
-        <a href="contact.html">Contact</a>
-    </div>
-</header>
-<!-- End Header -->
+<?php
+require "./views/layout/head.php";
+?>
 
 <!-- Start Main -->
 <main>
@@ -30,7 +14,7 @@
     </aside>
     <section id="myContent" class="content">
         <h1>Contact Content</h1>
-        <p>This is where the contactg content goes.</p>
+        <p>This is where the contact content goes.</p>
     </section>
     <aside class="sidebar-r">
         <h2>Events List</h2>
@@ -42,18 +26,7 @@
     </aside>
 </main>
 <!-- End main -->
+<?php
+require "./views/layout/foot.php";
+?>
 
-<!-- Start Footer -->
-<footer>
-    <!-- &copy; -->
-    <div>© 2024 My Website</div>
-    <div class="breadcrumbs"><a href="index.view.php">Home</a> &gt; Contact</div>
-    <div>Email: info@example.com</div>
-    <?php include '../footer.php';?>
-</footer>
-<!-- END Footer -->
-
-
-</body>
-<script src="js/myScript.js"></script>
-</html>
